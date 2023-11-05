@@ -626,6 +626,7 @@ width: 208px;
 }
 .review-form-field:focus +.review-form-field-icon {
     fill: #4D5AE5;
+    
 }
 .review-form-message {
     width: 100%;
@@ -653,6 +654,9 @@ width: 208px;
     margin-bottom: 24px;
 }
 .review-form-checkbox {
+ 
+} 
+.review-form-own-checkbox-icon { 
 
 }
 .review-form-own-checkbox {
@@ -686,10 +690,9 @@ width: 208px;
     text-decoration-line: underline;
 }
 .review-form-checkbox:checked + .review-form-checkbox-label .review-form-own-checkbox {
-    background-color:#404BBF;
+    background-color: #404BBF;
     fill:#F4F4FD;
     border: none;
-
 }
 
 .review-form-btn {
